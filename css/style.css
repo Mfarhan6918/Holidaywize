@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Oswald:wght@700&display=swap');
+
+/* Scroll bar CSS */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #838383;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #494541;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b8b8b8; 
+  }
+/* Menu area CSS */
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #0a0a0a !important;
+    font-size: 1rem;
+}
+
+.hover-effect:hover {
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #fff;
+    border-radius: 100px;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+}
+
+.btn-radius-clr {
+    border-radius: 12px;
+    background-color: #e88f2a;
+    width: 50px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.dropdown-menu {
+    min-width: 14rem !important;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: center;
+    border: none;
+}
+.temp-clr{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 1rem; 
+    color: black !important;
+
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100% !important;
+    left: -130px !important;
+    margin-top: 0.825rem !important;;      
+}
+
+/* booking hotel area CSS */
+@media (min-width: 1024px) {
+    .positioning-rel{
+        position: relative;
+        top: 100px;
+    }
+}
+@media (max-width: 1024px) {
+    .positioning-rel{
+        position: relative;
+        top: 60px;
+    }
+}
+@media (min-width: 768px) {
+    .wrap-bg-color{
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .wrap-bg-color{
+        width: 100%;
+    }
+}
+.search-hotl{
+    padding: 10px;
+}
+.form-select1{
+    background-image: none !important;
+    padding: .375rem;
+}
+@media (max-width: 425px){
+    .for-mrgn-top-1{
+        margin-top: 25px;
+    }
+}
+@media (max-width: 768px){
+    .for-mrgn-top-2{
+        margin-top: 25px;
+    }
+}
+
+/* Card area in CSS */
+.bg-img{
+    width: 100%;
+    min-height: 600px;
+    height: 600px;
+    background-image: url(../images/hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AE-styling{
+    font-family: 'Oswald', sans-serif;
+    color: #2B2825; 
+    letter-spacing: -1.5px; 
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .m-to-top{
+        margin-top: 15px;
+    }
+}
+/* Backyard area CSS */
+/* Footer area CSS */
+.footer h1 {
+    color: #04A4EB;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    color: white;
+    padding: 40px 0px 0px 0px;
+    background-color: black;
+    margin-top: 150px;
+
+
+
+    .box {
+        position: relative;
+        top: -80px;
+        padding: 10px 10px;
+        text-align: center;
+        background-color: #04A4EB;
+
+        .box-inner {
+            border: 1px solid white;
+            padding: 70px 5px 5px;
+        }
+    }
+
+    .icons a {
+        background-color: #EBA04A;
+        padding: 10px;
+    }
+
+    .icons a i {
+        padding: 4px 6px;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .icons a i:hover {
+        color: black;
+    }
+
+}
+
+.box h1 {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ah:hover {
+    transition: 1s;
+    padding-left: 10px;
+}
+
+
+.input {
+    position: relative;
+}
+
+.input button {
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    background-color: #EBA04A;
+    border: none;
+    color: white;
+    bottom: 0%;
+}
